@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Device ID</string>
 
+    <string name="contact_admin">Send as email</string>
+    <string name="send_email_subject">Device Registration</string>
+    <string name="send_email_body">Hello,\nPlease add my device ID <b>%s</b> as test device on AdMob</string>
+    <string name="send_email_recipient">kramkode@gmail.com</string>
+    <string name="close_btn_text">Close</string>
+    <string name="cd_device_recognition_device_image">Device Image</string>
+    <string name="send_email_hint">Send with…</string>
+
+    <string name="message_text">Your device ID is</string>
+    <string name="title_text">Bravo!</string>
 </resources>

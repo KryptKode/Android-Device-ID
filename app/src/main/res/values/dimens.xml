@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_h1">22sp</dimen>
+    <dimen name="text_size_h2">20sp</dimen>
+    <dimen name="text_size_h3">18sp</dimen>
+
+    <dimen name="device_id_default_margin">16dp</dimen>
+    <dimen name="device_id_btn_width_max">256dp</dimen>
+    <dimen name="device_id_error_img_size">200dp</dimen>
+</resources>

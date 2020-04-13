@@ -1,11 +1,75 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>/
     </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="Widget.App" parent="@style/Theme.MaterialComponents" />
+
+    <!-- For titles-->
+    <style name="TextAppearance.App.H1" parent="@style/TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">@dimen/text_size_h1</item>
+    </style>
+
+    <!-- For smaller titles-->
+    <style name="TextAppearance.App.H2" parent="@style/TextAppearance.App.H1">
+        <item name="android:textSize">@dimen/text_size_h2</item>
+    </style>
+
+    <!-- For other prominent text -->
+    <style name="TextAppearance.App.H3" parent="@style/TextAppearance.App.H1">
+        <item name="android:textSize">@dimen/text_size_h3</item>
+    </style>
+
+    <style name="TextAppearance.App.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0</item>
+    </style>
+
+    <style name="TextAppearance.App.Body" parent="TextAppearance.MaterialComponents.Body2" />
+
+    <style name="TextAppearance.App.ListPrimary" parent="TextAppearance.MaterialComponents.Subtitle1" />
+
+    <style name="TextAppearance.App.Main" parent="TextAppearance.MaterialComponents.Subtitle2" />
+
+
+    <style name="TextAppearance.App.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">?colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.App.TextLimit" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">?colorAccent</item>
+    </style>
+
+    <style name="TextAppearance.App.TextLimit.Error">
+        <item name="android:textColor">?colorError</item>
+    </style>
+
+
+
+
+
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+    </style>
+
+    <style name="Widget.App.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+    </style>
+
+    <style name="Widget.App.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+    </style>
+
+    <style name="Widget.App.Button.Icon" parent="Widget.MaterialComponents.Button.OutlinedButton.Icon" />
+
 
 </resources>
